@@ -162,14 +162,6 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def display_data(df):
-    i = 0
-    answer = input('\nDo you want to see raw data? \n').lower()
-    while answer == 'yes':
-        print(df.iloc[i:i+5])
-        i += 5
-        answer = input('Do you want more raw data? ').lower()
-
 def main():
     while True:
         city, month, day = get_filters()
@@ -179,7 +171,6 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        display_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':

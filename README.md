@@ -1,11 +1,11 @@
-### Date created
-June 7, 2020
+###### Date created
+*June 7, 2020*
 
-### Project Title
-Bikeshare data exploration
+## Project Title
+**Bikeshare data exploration**
 
 ### Description
-It is an interactive experience that runs in the terminal and shows the user customized statistics (the user can filter by city, month and day) about bike share behaviors in Chicago, New York City, and Washington.
+It is an *interactive experience* that runs in the terminal and shows the user *customized statistics* (the user can filter by city, month and day) *about* **bike share behaviors** in Chicago, New York City, and Washington.
 
 ### Files used
 bikeshare.py
